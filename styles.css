@@ -47,6 +47,11 @@ footer {
 .set {
   margin: 10% auto;
 }
+.pressed {
+  transform: scale(0.9);
+  background-color: lightgray;
+  box-shadow: 0 3px #666;
+}
 
 .game-over {
   background-color: red;
